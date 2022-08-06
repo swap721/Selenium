@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="ChromeBrowser" value="../SMproject/chromedriver.exe"/>
+  <parameter name="url" value="http://www.youtube.com"/>
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts_YTFramework.TC2">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC2 -->
+      <class name="org.testing.TestScripts_YTFramework.TC6">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC6 -->
+      <class name="org.testing.TestScripts_YTFramework.TC5">
+        <methods>
+          <include name="test"/>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC5 -->
+      <class name="org.testing.TestScripts_YTFramework.TC3">
+        <methods>
+          <include name="browserClose"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC3 -->
+      <class name="org.testing.TestScripts_YTFramework.TC7">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC7 -->
+      <class name="org.testing.TestScripts_YTFramework.TC4">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC4 -->
+      <class name="org.testing.TestScripts_YTFramework.TC8">
+        <methods>
+          <include name="browserOpen"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC8 -->
+      <class name="org.testing.TestScripts_YTFramework.TC1">
+        <methods>
+          <include name="browserClose"/>
+          <include name="browserOpen"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts_YTFramework.TC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
